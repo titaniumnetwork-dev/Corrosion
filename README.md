@@ -27,6 +27,6 @@ Much more in depth one is in the `demo` folder.
    - `config.ws` WebSocket rewriting
    - `config.cookie` Request Cookies
    - `config.codec` URL encoding (base64, plain, xor).
-   - `config.requestMiddleware` Array of middleware functions for proxy request. 
-   - `config.responseMiddleware` Array of middleware functions for proxy response.
-   - `config.standardMiddleware` Use the prebuilt middleware used by default. 
+   - `config.requestMiddleware` Server only - Array of middleware functions for proxy request. 
+   - `config.responseMiddleware` Server only - Array of middleware functions for proxy response.
+   - `config.standardMiddleware` Server only - Use the prebuilt middleware used by default. 
