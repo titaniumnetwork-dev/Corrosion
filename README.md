@@ -74,7 +74,6 @@ Much more in depth one is in the `demo` folder.
 # HTML Rewriter 
 
 ## Methods:
-
 ### process:
   - `source` HTML Source 
   - `config` Configuration
