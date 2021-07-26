@@ -37,5 +37,25 @@ Much more in depth one is in the `demo` folder.
 
 ### process
   - `source` JS script
-  - `url` URL for header
-    - ``
+  - `url` URL for heading
+
+### iterate
+  - `ast` JS AST
+  - `Callback` Handler initated on AST node
+
+### createHead
+  - `url` URL for heading
+
+### createCallExperssion 
+  - `callee` Acorn.js Node
+  - `args` Array
+
+### createArrayExpression
+  - `elements` Array
+
+### createIdentifier
+  - `name` Identifier name
+  - `preventRewrite` Prevent further rewrites
+
+### createLiteral
+  - `value` Literal value
