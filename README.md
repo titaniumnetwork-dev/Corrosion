@@ -86,3 +86,6 @@ Much more in depth one is in the `demo` folder.
   - `processed` Rewritten HTML
   - `config` Configuration
     - `document` Determines of its a document or fragment for parsing
+
+## Properties
+- `map` Map for attribute rewriting
