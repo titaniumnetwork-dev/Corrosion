@@ -59,3 +59,14 @@ Much more in depth one is in the `demo` folder.
 
 ### createLiteral
   - `value` Literal value
+
+# CSS Rewriter
+
+## Methods:
+
+### process:
+  - `source` CSS
+  - `config`
+    - `base` WHATWG URL Instance
+    - `origin` Location origin
+    - `context` CSS-Tree context
