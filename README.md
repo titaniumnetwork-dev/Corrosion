@@ -20,7 +20,7 @@ Much more in depth one is in the `demo` folder.
 # API:
   
   
-## Index
+# Index
 -  `config`
    - `config.prefix` Prefix
    - `config.title` Title used for HTML documents
@@ -30,3 +30,12 @@ Much more in depth one is in the `demo` folder.
    - `config.requestMiddleware` Server only - Array of middleware functions for proxy request. 
    - `config.responseMiddleware` Server only - Array of middleware functions for proxy response.
    - `config.standardMiddleware` Server only - Use the prebuilt middleware used by default. 
+
+# JS Rewriter
+
+## Methods:
+
+## process
+  - `source` JS script
+  - `url` URL for header
+    - ``
