@@ -35,7 +35,7 @@ Much more in depth one is in the `demo` folder.
 
 ## Methods:
 
-## process
+### process
   - `source` JS script
   - `url` URL for header
     - ``
