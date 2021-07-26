@@ -66,7 +66,7 @@ Much more in depth one is in the `demo` folder.
 
 ### process:
   - `source` CSS
-  - `config`
+  - `config` Configuration
     - `base` WHATWG URL Instance
     - `origin` Location origin
     - `context` CSS-Tree context
