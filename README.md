@@ -70,3 +70,19 @@ Much more in depth one is in the `demo` folder.
     - `base` WHATWG URL Instance
     - `origin` Location origin
     - `context` CSS-Tree context
+
+# HTML Rewriter 
+
+## Methods:
+
+### process:
+  - `source` HTML Source 
+  - `config` Configuration
+    - `document` Determines of its a document or fragment for parsing
+    - `base` WHATWG URL Instance
+    - `origin` Location origin
+
+### source:
+  - `processed` Rewritten HTML
+  - `config` Configuration
+    - `document` Determines of its a document or fragment for parsing
