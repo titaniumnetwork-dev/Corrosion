@@ -8,7 +8,7 @@ const ssl = {
 const server = https.createServer(ssl);
 const Corrosion = require('../');
 const proxy = new Corrosion({
-    codec: 'base64',
+    codec: 'xor',
 });
 
 server.on('request', (request, response) => {
