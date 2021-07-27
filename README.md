@@ -3,13 +3,13 @@ Titanium Network's web proxy.
 
 Project is still in development! Pull requests that contribute a lot will be accepted :)
 
-- Notable websites that work
-  - Youtube
-  - Twitch
-  - Instagram
-  - Discord
-  - Tik Tok
-  - Reddit
+Notable websites that work
+- Youtube
+- Twitch
+- Instagram
+- Discord
+- Tik Tok
+- Reddit
 
 
 # Installation:
