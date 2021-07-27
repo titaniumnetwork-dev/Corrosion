@@ -31,14 +31,14 @@ Much more in depth one is in the `demo` folder.
   
 # Index
 -  `config`
-   - `config.prefix` Prefix
-   - `config.title` Title used for HTML documents
-   - `config.ws` WebSocket rewriting
-   - `config.cookie` Request Cookies
-   - `config.codec` URL encoding (base64, plain, xor).
-   - `config.requestMiddleware` Server only - Array of middleware functions for proxy request. 
-   - `config.responseMiddleware` Server only - Array of middleware functions for proxy response.
-   - `config.standardMiddleware` Server only - Use the prebuilt middleware used by default. 
+   - `config.prefix` (String) URL Prefix
+   - `config.title` (Boolean / String) Title used for HTML documents
+   - `config.ws` (Boolean) WebSocket rewriting
+   - `config.cookie` (Boolean) Request Cookies
+   - `config.codec` (String) URL encoding (base64, plain, xor).
+   - `config.requestMiddleware` (Array) Array of middleware functions for proxy request. 
+   - `config.responseMiddleware` (Array) Array of middleware functions for proxy response.
+   - `config.standardMiddleware` (Boolean) Use the prebuilt middleware used by default. 
 
 # JS Rewriter
 
