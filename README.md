@@ -6,10 +6,10 @@ Project is still in development! Pull requests that contribute a lot will be acc
 - Notable websites that work
   - Youtube
   - Twitch
-Instagram
-Discord
-Tik Tok
-Reddit
+  - Instagram
+  - Discord
+  - Tik Tok
+  - Reddit
 
 
 # Installation:
