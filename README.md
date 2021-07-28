@@ -47,8 +47,8 @@ Much more in depth one is in the [demo folder](demo/).
   - [js](#js)
   - [css](#css)
   - [cookies](#cookies)
-  - config
-  - prefix
+  - [config](#index)
+  - [prefix](#url#properties)
 
 ## url 
 
