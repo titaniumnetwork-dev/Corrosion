@@ -51,15 +51,15 @@ Much more in depth one is in the [demo folder](demo/).
   - `val` String
   - `config` Configuration
     - `base` WHATWG URL
-    - `origin` Location origin
-    - `flags` Array (['xhr'] => /service/xhr_/https%3A%2F%2Fexample.org/)
+    - `origin` Location origin - Adds a location origin before the proxy url
+    - `flags` Array - ['xhr'] => /service/xhr_/https%3A%2F%2Fexample.org/
 
 ### unwrap
   - `val` String
   - `config` Configuration
-    - `origin` Location origin (required if a location origin starts before the pathname containg the proxy url)
-    - `flags` Boolean Returns with both the URL and flags found { value: 'https://example.org', flags: ['xhr'], })
-    - `leftovers` Boolean 
+    - `origin` Location origin - Required if a location origin starts before the proxy url
+    - `flags` Boolean - Returns with both the URL and flags found { value: 'https://example.org', flags: ['xhr'], })
+    - `leftovers` Boolean - Use any leftovers if any after the encoded proxy url
 
 # JS Rewriter
 
