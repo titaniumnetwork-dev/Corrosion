@@ -32,14 +32,14 @@ Much more in depth one is in the [demo folder](demo/).
   
 # Index
 -  `config`
-   - `config.prefix` (String) URL Prefix
-   - `config.title` (Boolean / String) Title used for HTML documents
-   - `config.ws` (Boolean) WebSocket rewriting
-   - `config.cookie` (Boolean) Request Cookies
-   - `config.codec` (String) URL encoding (base64, plain, xor).
-   - `config.requestMiddleware` (Array) Array of middleware functions for proxy request. 
-   - `config.responseMiddleware` (Array) Array of middleware functions for proxy response.
-   - `config.standardMiddleware` (Boolean) Use the prebuilt middleware used by default. 
+   - `prefix` String - URL Prefix
+   - `title` (Boolean / String) - Title used for HTML documents
+   - `ws` Boolean - WebSocket rewriting
+   - `cookie` Boolean - Request Cookies
+   - `codec` String - URL encoding (base64, plain, xor).
+   - `requestMiddleware` Array - Array of middleware functions for proxy request. 
+   - `responseMiddleware` Array - Array of middleware functions for proxy response.
+   - `standardMiddleware` Boolean - Use the prebuilt middleware used by default. 
 
 ## Properties:
 
@@ -53,6 +53,13 @@ Much more in depth one is in the [demo folder](demo/).
     - `base` WHATWG URL
     - `origin` Location origin
     - `flags` Array (['xhr'] => /service/xhr_/https%3A%2F%2Fexample.org/)
+
+### unwrap
+  - `val` String
+  - `config` Configuration
+    - `origin` Location origin (required if a location origin starts before the pathname containg the proxy url)
+    - `flags` Boolean Returns with both the URL and flags found { value: 'https://example.org', flags: ['xhr'], })
+    - `leftovers` Boolean 
 
 # JS Rewriter
 
