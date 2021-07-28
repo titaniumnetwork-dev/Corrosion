@@ -41,7 +41,16 @@ Much more in depth one is in the [demo folder](demo/).
    - `responseMiddleware` Array - Array of middleware functions for proxy response (Server).
    - `standardMiddleware` Boolean - Use the prebuilt middleware used by default (Server). 
 
-- Properties
+#### request
+  - `request` Request
+  - `response` Response
+
+#### upgrade
+  - `request` Request
+  - `socket` Socket
+  - `head` Head
+
+## Properties
   - [url](#url)
   - [html](#html)
   - [js](#js)
@@ -50,6 +59,8 @@ Much more in depth one is in the [demo folder](demo/).
   - [config](#index)
   - [codec](#codec)
   - [prefix](#url)
+
+
 
 ## url 
 
@@ -78,8 +89,6 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## js
 
-### Methods:
-
 #### process
   - `source` JS script
   - `url` URL for heading
@@ -107,8 +116,6 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## css
 
-### Methods:
-
 #### process
   - `source` CSS
   - `config` Configuration
@@ -117,8 +124,6 @@ Much more in depth one is in the [demo folder](demo/).
     - `context` CSS-Tree context
 
 ## html
-
-### Methods:
 
 #### process
   - `source` HTML Source 
@@ -137,8 +142,6 @@ Much more in depth one is in the [demo folder](demo/).
 
 
 ## cookies
-
-### Methods:
 
 #### encode
   - `input` New (Cookie / Cookies)
