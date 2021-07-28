@@ -43,9 +43,9 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Properties:
 
-- [url][#URL Wrapper]
+- [url][#URL]
 
-# URL Wrapper 
+# URL 
 
 ## Methods:
 
