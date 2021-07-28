@@ -166,7 +166,7 @@ Much more in depth one is in the [demo folder](demo/).
 Middleware are functions that will be executed either before request or after response. These can alter the way a request is made or response is sent.
 
 ```javascript
-function(ctx) {
+function(ctx) {r
   ctx.body; // (Request / Response) Body (Will return null if none)
   ctx.headers; // (Request / Response) Headers
   ctx.url; // WHATWG URL
@@ -183,3 +183,12 @@ function(ctx) {
   ctx.remoteResponse; // Node.js Remote Response (Only available on response)
 };
 ```
+
+### Default middleware
+
+- Request
+  - requestHeaders
+
+- Response
+  - decompress
+  - rewriteBody
