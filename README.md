@@ -42,11 +42,11 @@ Much more in depth one is in the [demo folder](demo/).
    - `standardMiddleware` Boolean - Use the prebuilt middleware used by default (Server). 
 
 - Properties
-  [url][#url]
-  - html
-  - js
-  - css
-  - cookies
+  - [url([#url)
+  - [html](#html)
+  - [js](#js)
+  - [css](#css)
+  - [cookies](#cookies)
   - config
   - prefix
 
@@ -75,7 +75,7 @@ Much more in depth one is in the [demo folder](demo/).
   - `codec` (base64, plain, xor)
 
 
-## JS Rewriter
+## js
 
 ### Methods:
 
@@ -104,7 +104,7 @@ Much more in depth one is in the [demo folder](demo/).
 #### createLiteral
   - `value` Literal value
 
-## CSS Rewriter
+## css
 
 ### Methods:
 
@@ -115,7 +115,7 @@ Much more in depth one is in the [demo folder](demo/).
     - `origin` Location origin
     - `context` CSS-Tree context
 
-## HTML Rewriter 
+## html
 
 ### Methods:
 
@@ -135,7 +135,7 @@ Much more in depth one is in the [demo folder](demo/).
 - `map` Map for attribute rewriting
 
 
-## Cookie Rewriter 
+## cookies
 
 ### Methods:
 
@@ -151,7 +151,7 @@ Much more in depth one is in the [demo folder](demo/).
   - `config` Configuration
     - `url` WHATWG URL
 
-## Codec
+## codec
 
 ### Methods:
 
