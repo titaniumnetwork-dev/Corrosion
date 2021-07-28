@@ -61,7 +61,7 @@ Much more in depth one is in the [demo folder](demo/).
     - `leftovers` Boolean - Use any leftovers if any after the encoded proxy url
 
 
-- Properties
+## Properties
   - `regex` Regex used to determine to rewrite the URL or not.
 
   - `prefix` URL Prefix
