@@ -1,6 +1,6 @@
 # Corrosion
-Access the world wide web.
-
+Titanium Networks main web proxy.
+Successor to [Alloy](https://github.com/titaniumnetwork-dev/alloy)
 # Installation:
 ```
 npm i corrosion
