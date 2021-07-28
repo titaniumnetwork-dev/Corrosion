@@ -42,7 +42,7 @@ Much more in depth one is in the [demo folder](demo/).
    - `standardMiddleware` Boolean - Use the prebuilt middleware used by default (Server). 
 
 - Properties
-  - [url][#url]
+  [url][#url]
   - html
   - js
   - css
