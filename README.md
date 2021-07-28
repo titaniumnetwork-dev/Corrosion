@@ -41,7 +41,18 @@ Much more in depth one is in the [demo folder](demo/).
    - `config.responseMiddleware` (Array) Array of middleware functions for proxy response.
    - `config.standardMiddleware` (Boolean) Use the prebuilt middleware used by default. 
 
-## Properties
+## Properties:
+
+# URL Wrapper 
+
+## Methods:
+
+### wrap
+  - `val` String
+  - `config` Configuration
+    - `base` WHATWG URL
+    - `origin` Location origin
+    - `flags` Array (['xhr'] => /service/xhr_/https%3A%2F%2Fexample.org/)
 
 # JS Rewriter
 
@@ -76,7 +87,7 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Methods:
 
-### process:
+### process
   - `source` CSS
   - `config` Configuration
     - `base` WHATWG URL
@@ -87,14 +98,14 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Methods:
 
-### process:
+### process
   - `source` HTML Source 
   - `config` Configuration
     - `document` Determines of its a document or fragment for parsing
     - `base` WHATWG URL
     - `origin` Location origin
 
-### source:
+### source
   - `processed` Rewritten HTML
   - `config` Configuration
     - `document` Determines of its a document or fragment for parsing
@@ -107,14 +118,14 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Methods:
 
-### encode:
+### encode
   - `input` New (Cookie / Cookies)
   - `config` Configuration
     - `url` WHATWG URL
     - `domain` Cookie Domain
     - `secure` Cookie Secure
 
-### decode:
+### decode
   - `store` Encoded Cookies
   - `config` Configuration
     - `url` WHATWG URL
@@ -123,6 +134,6 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Methods:
 
-### encode:
-### decode:
+### encode
+### decode
   - `str` String
