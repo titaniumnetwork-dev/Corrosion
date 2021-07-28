@@ -43,7 +43,7 @@ Much more in depth one is in the [demo folder](demo/).
   - `head` Head
 
 #### bundleScripts
-Bundles scripts for client injection.
+Bundles scripts for client injection. Important when updating proxy.
 
 ## Properties
   - [url](#url)
