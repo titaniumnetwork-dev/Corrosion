@@ -157,8 +157,27 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## codec
 
-### Methods:
-
 #### encode
 #### decode
   - `str` String
+
+## middleware
+
+Middleware are functions that will be executed either before request or after response. These can alter the way a request is made or response is sent.
+
+```javascript
+function(ctx) {
+  ctx.body; // (Request / Response) Body (Will return null if none)
+  ctx.headers; // (Request / Response) Headers
+  ctx.url; // WHATWG URL
+  ctx.flags; // URL Flags
+  ctx.origin; // Request origin
+  ctx.method; // Request method
+  ctx.rewrite; // Corrosion object
+  ctx.statusCode; // Response status (Only available on response)
+  ctx.clientSocket; // Node.js Server Socket (Only available on upgrade)
+  ctx.clientRequest; // Node.js Server Request
+  ctx.clientResponse; // Node.js Server Response
+  ctx.remoteResponse; // Node.js Remote Response (Only available on response)
+};
+```
