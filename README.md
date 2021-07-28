@@ -42,7 +42,7 @@ Much more in depth one is in the [demo folder](demo/).
   - `socket` Socket
   - `head` Head
 
-### bundleScripts
+#### bundleScripts
 Bundles scripts for client injection.
 
 ## Properties
