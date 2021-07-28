@@ -63,11 +63,11 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Properties:
 
-### regex - Regex used to determine to rewrite the URL or not.
+- regex - Regex used to determine to rewrite the URL or not.
 
-### prefix - URL Prefix
+- prefix - URL Prefix
 
-### codec - (base64, plain, xor)
+- codec - (base64, plain, xor)
 
 
 # JS Rewriter
