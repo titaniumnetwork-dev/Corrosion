@@ -198,7 +198,7 @@ function(ctx) {r
 #### address (Request)
   - `arr` Array of IP addresses to use in request
 
-```
+```javascript
 const Corrosion = require('corrosion');
 const proxy = new Corrosion({
   requestMiddleware: [
