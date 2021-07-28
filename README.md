@@ -210,7 +210,18 @@ const proxy = new Corrosion({
 });
 ```
 
-
 ### blacklist
   - `arr` Array of hostnames to block clients from seeing
   -  `page` Block page
+
+```javascript
+const Corrosion = require('corrosion');
+const proxy = new Corrosion({
+  requestMiddleware: [
+    Corrosion.middleware.blacklist([ 
+      'example.org',
+      'example.com',
+    ], 'Page is blocked'),  
+  ],
+});
+```
