@@ -8,6 +8,7 @@ Notable websites that work
 - Twitch
 - Instagram
 - Discord
+- Disney Plus
 - Tik Tok
 - Reddit
 
