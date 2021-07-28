@@ -42,7 +42,7 @@ Much more in depth one is in the [demo folder](demo/).
    - `standardMiddleware` Boolean - Use the prebuilt middleware used by default (Server). 
 
 - Properties
-  - [url][#URL]
+  - [url][#url]
   - html
   - js
   - css
@@ -50,7 +50,7 @@ Much more in depth one is in the [demo folder](demo/).
   - config
   - prefix
 
-## URL 
+## url 
 
 #### wrap
   - `val` String
