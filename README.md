@@ -11,7 +11,11 @@ npm i corrosion
 const Corrosion = require('corrosion');
 const proxy = new Corrosion();
 const http = require('http')
-http.createServer((req, res) => proxy.request(req, res)).on('upgrade', (req, socket, head) => proxy.upgrade(req, socket, head)).listen(80);
+http.createServer((req, res) => 
+  proxy.request(req, res) // Request Proxy
+).on('upgrade', (req, socket, head) => 
+  proxy.upgrade(req, socket, head) // WebSocket Proxy
+).listen(80);
 ```
 Much more in depth one is in the [demo folder](demo/).
 
