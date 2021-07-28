@@ -198,6 +198,19 @@ function(ctx) {r
 #### address (Request)
   - `arr` Array of IP addresses to use in request
 
+```
+const Corrosion = require('corrosion');
+const proxy = new Corrosion({
+  requestMiddleware: [
+    Corrosion.middleware.address([ 
+      0.0.0.0, 
+      0.0.0.0 
+    ]),  
+  ],
+});
+```
+
+
 ### blacklist
   - `arr` Array of hostnames to block clients from seeing
   -  `page` Block page
