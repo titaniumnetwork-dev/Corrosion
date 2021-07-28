@@ -41,8 +41,6 @@ Much more in depth one is in the [demo folder](demo/).
    - `responseMiddleware` Array - Array of middleware functions for proxy response (Server).
    - `standardMiddleware` Boolean - Use the prebuilt middleware used by default (Server). 
 
-## Proxy methods
-
 #### request
   - `request` Request
   - `response` Response
