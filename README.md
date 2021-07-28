@@ -41,9 +41,8 @@ Much more in depth one is in the [demo folder](demo/).
    - `responseMiddleware` Array - Array of middleware functions for proxy response.
    - `standardMiddleware` Boolean - Use the prebuilt middleware used by default. 
 
-## Properties:
-
-- [url][#URL]
+- Properties
+  - [url][1]
 
 # URL 
 
