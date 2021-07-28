@@ -37,12 +37,18 @@ Much more in depth one is in the [demo folder](demo/).
    - `ws` Boolean - WebSocket rewriting
    - `cookie` Boolean - Request Cookies
    - `codec` String - URL encoding (base64, plain, xor).
-   - `requestMiddleware` Array - Array of middleware functions for proxy request. 
-   - `responseMiddleware` Array - Array of middleware functions for proxy response.
-   - `standardMiddleware` Boolean - Use the prebuilt middleware used by default. 
+   - `requestMiddleware` Array - Array of middleware functions for proxy request (Server). 
+   - `responseMiddleware` Array - Array of middleware functions for proxy response (Server).
+   - `standardMiddleware` Boolean - Use the prebuilt middleware used by default (Server). 
 
 - Properties
-  - [url][1]
+  - url
+  - html
+  - js
+  - css
+  - cookies
+  - config
+  - prefix
 
 ## URL 
 
