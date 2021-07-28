@@ -30,7 +30,7 @@ Much more in depth one is in the [demo folder](demo/).
 # API:
   
   
-# Index
+## Index
 -  `config`
    - `prefix` String - URL Prefix
    - `title` (Boolean / String) - Title used for HTML documents
@@ -44,16 +44,16 @@ Much more in depth one is in the [demo folder](demo/).
 - Properties
   - [url][1]
 
-# URL 
+## URL 
 
-### wrap
+#### wrap
   - `val` String
   - `config` Configuration
     - `base` WHATWG URL
     - `origin` Location origin - Adds a location origin before the proxy url
     - `flags` Array - ['xhr'] => /service/xhr_/https%3A%2F%2Fexample.org/
 
-### unwrap
+#### unwrap
   - `val` String
   - `config` Configuration
     - `origin` Location origin - Required if a location origin starts before the proxy url
@@ -69,86 +69,86 @@ Much more in depth one is in the [demo folder](demo/).
   - `codec` (base64, plain, xor)
 
 
-# JS Rewriter
+## JS Rewriter
 
-## Methods:
+### Methods:
 
-### process
+#### process
   - `source` JS script
   - `url` URL for heading
 
-### iterate
+#### iterate
   - `ast` JS AST
   - `Callback` Handler initated on AST node
 
-### createHead
+#### createHead
   - `url` URL for heading
 
-### createCallExperssion 
+#### createCallExperssion 
   - `callee` Acorn.js Node
   - `args` Array
 
-### createArrayExpression
+#### createArrayExpression
   - `elements` Array
 
-### createIdentifier
+#### createIdentifier
   - `name` Identifier name
   - `preventRewrite` Prevent further rewrites
 
-### createLiteral
+#### createLiteral
   - `value` Literal value
 
-# CSS Rewriter
+## CSS Rewriter
 
-## Methods:
+### Methods:
 
-### process
+#### process
   - `source` CSS
   - `config` Configuration
     - `base` WHATWG URL
     - `origin` Location origin
     - `context` CSS-Tree context
 
-# HTML Rewriter 
+## HTML Rewriter 
 
-## Methods:
+### Methods:
 
-### process
+#### process
   - `source` HTML Source 
   - `config` Configuration
     - `document` Determines of its a document or fragment for parsing
     - `base` WHATWG URL
     - `origin` Location origin
 
-### source
+#### source
   - `processed` Rewritten HTML
   - `config` Configuration
     - `document` Determines of its a document or fragment for parsing
 
-## Properties
+### Properties
 - `map` Map for attribute rewriting
 
 
-# Cookie Rewriter 
+## Cookie Rewriter 
 
-## Methods:
+### Methods:
 
-### encode
+#### encode
   - `input` New (Cookie / Cookies)
   - `config` Configuration
     - `url` WHATWG URL
     - `domain` Cookie Domain
     - `secure` Cookie Secure
 
-### decode
+#### decode
   - `store` Encoded Cookies
   - `config` Configuration
     - `url` WHATWG URL
 
-# Codec
+## Codec
 
-## Methods:
+### Methods:
 
-### encode
-### decode
+#### encode
+#### decode
   - `str` String
