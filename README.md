@@ -60,6 +60,7 @@ Much more in depth one is in the [demo folder](demo/).
     - `flags` Boolean - Returns with both the URL and flags found { value: 'https://example.org', flags: ['xhr'], })
     - `leftovers` Boolean - Use any leftovers if any after the encoded proxy url
 
+
 - Properties
   - `regex` Regex used to determine to rewrite the URL or not.
 
