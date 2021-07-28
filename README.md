@@ -190,6 +190,7 @@ function(ctx) {r
   - requestHeaders
 
 - Response
+  - responseHeaders
   - decompress
   - rewriteBody
 
