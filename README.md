@@ -25,7 +25,7 @@ const proxy = new Corrosion();
 const http = require('http')
 http.createServer((req, res) => proxy.request(req, res)).on('upgrade', proxy.upgrade).listen(80);
 ```
-Much more in depth one is in the `demo` folder.
+Much more in depth one is in the [demo folder](demo/).
 
 # API:
   
@@ -40,6 +40,8 @@ Much more in depth one is in the `demo` folder.
    - `config.requestMiddleware` (Array) Array of middleware functions for proxy request. 
    - `config.responseMiddleware` (Array) Array of middleware functions for proxy response.
    - `config.standardMiddleware` (Boolean) Use the prebuilt middleware used by default. 
+
+## Properties
 
 # JS Rewriter
 
