@@ -46,8 +46,6 @@ Much more in depth one is in the [demo folder](demo/).
 
 # URL 
 
-## Methods:
-
 ### wrap
   - `val` String
   - `config` Configuration
@@ -62,13 +60,12 @@ Much more in depth one is in the [demo folder](demo/).
     - `flags` Boolean - Returns with both the URL and flags found { value: 'https://example.org', flags: ['xhr'], })
     - `leftovers` Boolean - Use any leftovers if any after the encoded proxy url
 
-## Properties:
+- Properties
+  - `regex` Regex used to determine to rewrite the URL or not.
 
-- regex - Regex used to determine to rewrite the URL or not.
+  - `prefix` URL Prefix
 
-- prefix - URL Prefix
-
-- codec - (base64, plain, xor)
+  - `codec` (base64, plain, xor)
 
 
 # JS Rewriter
