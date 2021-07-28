@@ -192,3 +192,12 @@ function(ctx) {r
 - Response
   - decompress
   - rewriteBody
+
+### Available Middleware
+
+#### address (Request)
+  - `arr` Array of IP addresses to use in request
+
+### blacklist
+  - `arr` Array of hostnames to block clients from seeing
+  -  `page` Block page
