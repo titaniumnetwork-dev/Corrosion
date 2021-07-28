@@ -47,7 +47,7 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Methods:
 
-### wrap
+#### wrap
   - `val` String
   - `config` Configuration
     - `base` WHATWG URL
