@@ -111,3 +111,8 @@ Much more in depth one is in the `demo` folder.
     - `url` WHATWG URL
     - `domain` Cookie Domain
     - `secure` Cookie Secure
+
+### decode:
+  - `store` Encoded Cookies
+  - `config` Configuration
+    - `url` WHATWG URL
