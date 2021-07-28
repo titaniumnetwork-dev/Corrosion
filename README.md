@@ -43,11 +43,13 @@ Much more in depth one is in the [demo folder](demo/).
 
 ## Properties:
 
+- [url][#URL Wrapper]
+
 # URL Wrapper 
 
 ## Methods:
 
-#### wrap
+### wrap
   - `val` String
   - `config` Configuration
     - `base` WHATWG URL
