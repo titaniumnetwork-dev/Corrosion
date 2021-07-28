@@ -176,6 +176,7 @@ function(ctx) {
   ctx.rewrite; // Corrosion object
   ctx.statusCode; // Response status (Only available on response)
   ctx.agent; // HTTP agent
+  ctx.address; // Address used to make remote request
   ctx.clientSocket; // Node.js Server Socket (Only available on upgrade)
   ctx.clientRequest; // Node.js Server Request
   ctx.clientResponse; // Node.js Server Response
