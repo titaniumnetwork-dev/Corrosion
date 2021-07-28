@@ -116,3 +116,11 @@ Much more in depth one is in the `demo` folder.
   - `store` Encoded Cookies
   - `config` Configuration
     - `url` WHATWG URL
+
+# Codec
+
+## Methods:
+
+### encode:
+### decode:
+  - `str` String
