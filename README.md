@@ -77,7 +77,7 @@ Much more in depth one is in the `demo` folder.
 ### process:
   - `source` CSS
   - `config` Configuration
-    - `base` WHATWG URL Instance
+    - `base` WHATWG URL
     - `origin` Location origin
     - `context` CSS-Tree context
 
@@ -89,7 +89,7 @@ Much more in depth one is in the `demo` folder.
   - `source` HTML Source 
   - `config` Configuration
     - `document` Determines of its a document or fragment for parsing
-    - `base` WHATWG URL Instance
+    - `base` WHATWG URL
     - `origin` Location origin
 
 ### source:
@@ -99,3 +99,15 @@ Much more in depth one is in the `demo` folder.
 
 ## Properties
 - `map` Map for attribute rewriting
+
+
+# Cookie Rewriter 
+
+## Methods:
+
+### encode:
+  - `input` New (Cookie / Cookies)
+  - `config` Configuration
+    - `url` WHATWG URL
+    - `domain` Cookie Domain
+    - `secure` Cookie Secure
