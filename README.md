@@ -221,3 +221,7 @@ const proxy = new Corrosion({
   ],
 });
 ```
+
+# Todo:
+
+- Inject header much more property in JS rewriter (because of import statements)
