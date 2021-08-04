@@ -17,6 +17,9 @@ http.createServer((req, res) =>
   proxy.upgrade(req, socket, head) // WebSocket Proxy
 ).listen(80);
 ```
+
+Access a website by going to `/prefix/gateway?url=URL`
+
 Much more in depth one is in the [demo folder](demo/).
 
 # API:
