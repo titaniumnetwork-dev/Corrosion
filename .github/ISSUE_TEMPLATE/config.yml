@@ -3,3 +3,6 @@ contact_links:
   - name: Community Support
     url: https://discord.gg/UU9BvFhJ8v
     about: Please ask and answer questions here.
+  - name: Heroku and Repl.it issues
+    url: https://www.youtube.com/watch?v=BLUkgRAy_Vo
+    about: Do not create issues for these.
