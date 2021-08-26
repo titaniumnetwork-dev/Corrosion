@@ -306,7 +306,7 @@ const proxy = new Corrosion({
 
 # Contributing
 
-[API Documentation.](wiki/API)
+[API Documentation.](https://github.com/titaniumnetwork-dev/Corrosion/wiki/API)
 
 See something lacking in Corrosion that you can fix? Fork the repo, make some changes, and send in a pull request.
 
