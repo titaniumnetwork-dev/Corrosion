@@ -108,7 +108,7 @@ server.on('request', (request, response) => {
 In the same directory in which you saved the above files, generate some self-signed SSL certificates.
 
 ```shell-session
-root@corrosion:~$ openssl req -x509 -newkey rsa:4096 -keyout ssl.key -out ssl.cert -days 365
+root@corrosion:~$ openssl req -nodes -new -x509 -keyout ssl.key -out ssl.cert
 ```
 
 ## Testing
