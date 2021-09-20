@@ -220,6 +220,8 @@ Your site should be working now. If you want to add a custom frontend to make it
 
 [Holy Unblocker](https://github.com/titaniumnetwork-dev/Holy-Unblocker)
 
+[Incognito](https://github.com/titaniumnetwork-dev/Incognito)
+
 [Vanadium](https://github.com/titaniumnetwork-dev/Vanadium)
 
 [Reborn](https://github.com/titaniumnetwork-dev/Reborn)
