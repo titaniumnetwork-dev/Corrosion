@@ -9,6 +9,7 @@ const server = https.createServer(ssl);
 const Corrosion = require('../');
 const proxy = new Corrosion({
     codec: 'xor',
+    enforceSSL: true,
 });
 
 proxy.bundleScripts();
